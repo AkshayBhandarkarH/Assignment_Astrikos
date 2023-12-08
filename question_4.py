@@ -1,3 +1,9 @@
+"""4. The below API print the price of Bitcoin in USD and GBP 
+https://api.coindesk.com/v1/bpi/currentprice.json
+• Collect data from this API for 1 day at 5 minutes interval. I.e you will have at least 
+288 unique data points. Consecutive data points should not have same value.
+• Find the highest and lowest price of bitcoin from the collected data, without using minimum 
+or maximum functions"""
 import requests
 import time
 
